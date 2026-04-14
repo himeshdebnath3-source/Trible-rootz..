@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bastar Heritage Store</title>
+  <title>trible-rootz.. Store</title>
   <link rel="stylesheet" href="style.css">
 
   <!-- AOS Animation -->
@@ -12,7 +12,7 @@
 <body>
 
 <header>
-  <h1>Bastar Heritage</h1>
+  <h1>trible-rootz..</h1>
   <nav>
     <a href="#">Home</a>
     <a href="#products">Shop</a>
@@ -72,3 +72,17 @@
 
 </body>
 </html>
+<script>
+let total = 0;
+
+function addToCart(price) {
+  total += price;
+  document.getElementById("cart-total").innerText = "₹" + total;
+}
+</script>
+<footer>
+  <p>© 2026 Your Brand | Contact: your@email.com</p>
+</footer>
+<button onclick="alert('Payment feature coming soon')">
+  Proceed to Payment
+</button>
